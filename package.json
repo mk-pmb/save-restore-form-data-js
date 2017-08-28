@@ -1,0 +1,31 @@
+{ "name": "save-restore-form-data",
+  "version": "0.0.1",
+  "description": "Given some JS object (usually an HTML document), use its .querySelectorAll method to find form input fields and save or load their values to/from a dictionary object or a QueryString.",
+  "keywords": [ ":TODO:" ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/save-restore-form-data-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/save-restore-form-data-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/save-restore-form-data-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "sfd.js",
+  "scripts": { "test": "nodejs test/all.js" },
+  "directories": { "test": "test" },
+
+  "dependencies": {},
+  "browser": {},
+  "devDependencies": {
+    "equal-pmb": "^0.1.6"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
